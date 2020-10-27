@@ -1,0 +1,32 @@
+.Book {
+  width: 145px;
+  box-sizing: border-box;
+  background-color: transparent;
+  margin: auto;
+}
+
+.Book img {
+  height: 208px;
+}
+
+.Book P {
+  font-size: 16px;
+  padding-top: 16px;
+  color: black;
+}
+
+.Book P.odd {
+  font-size: 16px;
+  padding-top: 16px;
+  color: white;
+}
+
+.Book h3 {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #797979;
+}
+
+.Book h3.odd {
+  color: #81b81f;
+}

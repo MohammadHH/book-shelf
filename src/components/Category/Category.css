@@ -1,0 +1,21 @@
+.Category {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  column-gap: 30px;
+  padding-top: 16px;
+}
+
+.Category img {
+  width: 48px;
+}
+
+.Category h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Category p {
+  color: #797979;
+  margin: 0;
+  font-size: 14px;
+}

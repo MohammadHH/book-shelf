@@ -1,0 +1,31 @@
+.Categories {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  column-gap: 10px;
+  padding: 0;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 1000px) {
+  .Categories {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (max-width: 526px) {
+  .Categories {
+    grid-template-columns: 100%;
+  }
+}
+
+.categories-header {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.categories-header span {
+  font-weight: 500;
+}
+
+.categories-section {
+  min-height: 376px;
+}

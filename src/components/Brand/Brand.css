@@ -1,0 +1,11 @@
+.navbar-brand h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+}
+
+@media screen and (max-width: 420px) {
+  .navbar-brand h1 {
+    font-size: 32px;
+  }
+}

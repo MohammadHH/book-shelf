@@ -1,0 +1,9 @@
+.SearchLink {
+  cursor: pointer;
+  color: #fcfdfa !important;
+  padding: 8px;
+}
+
+.SearchLink:hover {
+  color: black !important;
+}

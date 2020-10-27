@@ -1,0 +1,23 @@
+.Link {
+  cursor: pointer;
+  padding-bottom: 0px !important;
+  padding-left: 0;
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.Link:hover {
+  color: black !important;
+}
+
+.Link.gray {
+  color: #7f7f7f;
+}
+
+.Link.green:hover {
+  color: #81b820 !important;
+}
+
+.Link.navigation {
+  text-transform: capitalize;
+}
