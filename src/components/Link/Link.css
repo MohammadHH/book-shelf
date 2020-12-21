@@ -1,21 +1,21 @@
-.Link {
+.navbar-light.navbar-nav.nav-link.Link {
   cursor: pointer;
-  padding-bottom: 0px !important;
+  padding-bottom: 0px;
   padding-left: 0;
-  color: white !important;
+  color: white;
   text-transform: uppercase;
 }
 
-.Link:hover {
-  color: black !important;
+.navbar-light.navbar-nav.nav-link.Link:hover {
+  color: black;
 }
 
-.Link.gray {
+.navbar-light.navbar-nav.nav-link.Link.gray {
   color: #7f7f7f;
 }
 
-.Link.green:hover {
-  color: #81b820 !important;
+.navbar-light.navbar-nav.nav-link.Link.green.gray.navigation:hover {
+  color: #81b820;
 }
 
 .Link.navigation {

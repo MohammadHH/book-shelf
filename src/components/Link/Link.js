@@ -3,7 +3,7 @@ import "./Link.css";
 
 const Link = (props) => {
   let classes = ["nav-item"];
-  let anchor = ["Link", "nav-link"];
+  let anchor = ["navbar-light", "navbar-nav", "nav-link", "Link"];
   if (props.active) classes.push("active");
   if (props.footer) anchor.push("green", "gray", "navigation");
   return (
