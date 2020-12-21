@@ -15,7 +15,6 @@ const images = [
 class FullBook extends Component {
   state = { book: null };
   componentDidMount() {
-    console.log("Full Book");
     axios
       .get(
         "https://book-shelf-b0945.firebaseio.com/book" +
@@ -25,16 +24,27 @@ class FullBook extends Component {
       .then((res) =>
         this.setState({ book: res.data[Object.keys(res.data)[0]] })
       )
-      .catch(console.log);
+      .catch((err) => {
+        console.log(err);
+        this.setState({ book: null });
+      });
   }
   render() {
     let book = <h2 className="text-center pt-4">Loading ...</h2>;
-    if (this.state.book)
+    if (this.state.book) {
+      const {
+        author,
+        id,
+        category,
+        description,
+        publishedOn,
+        reviewedBy,
+      } = this.state.book;
       book = (
         <section className="text-center pt-4 pb-4">
           <div className="container">
-            <div class="card">
-              <div class="card-header">
+            <div className="card">
+              <div className="card-header">
                 <div className="d-flex justify-content-between align-items-center">
                   <div>
                     <Link to="/">
@@ -43,32 +53,37 @@ class FullBook extends Component {
                       </button>
                     </Link>
                   </div>
-                  <h5 className="text-secondary">
-                    By: {this.state.book.author}
-                  </h5>
+                  {author && <h5 className="text-secondary">By: {author}</h5>}
                 </div>
               </div>
-              <img
-                src={images[(this.state.book.id - 1) % images.length]}
-                alt="front page"
-                className="card-img-top"
-              />
-              <div class="card-body">
-                <h5 class="card-title">{this.state.book.category}</h5>
-                <p class="card-text">{this.state.book.description}</p>
+              {id && (
+                <img
+                  src={images[(id - 1) % images.length]}
+                  alt="front page"
+                  className="card-img-top"
+                />
+              )}
+              <div className="card-body">
+                {category && <h5 className="card-title">{category}</h5>}
+                {description && <p className="card-text">{description}</p>}
               </div>
-              <div class="card-footer">
-                <div className="float-left text-primary">
-                  Published On: {this.state.book.publishedOn}
-                </div>
-                <div className="float-right text-success">
-                  Reviewed By: {this.state.book.reviewedBy}
-                </div>
+              <div className="card-footer">
+                {publishedOn && (
+                  <div className="float-left text-primary">
+                    Published On: {publishedOn}
+                  </div>
+                )}
+                {reviewedBy && (
+                  <div className="float-right text-success">
+                    Reviewed By: {reviewedBy}
+                  </div>
+                )}
               </div>
             </div>
           </div>
         </section>
       );
+    }
     return book;
   }
 }
