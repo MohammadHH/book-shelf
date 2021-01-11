@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BooksPage from "../Containers/LandPage/LandPage";
+import LandPage from "../Containers/LandPage/LandPage";
 import FullBook from "../components/Book/FullBook";
 import Header from "../layouts/Header/Header";
 import Footer from "../layouts/Footer/Footer";
@@ -25,7 +25,7 @@ class App extends Component {
           <Route path="/:bookId" component={FullBook} />
           <Route
             path="/"
-            render={() => <BooksPage categories={this.state.categories} />}
+            render={() => <LandPage categories={this.state.categories} />}
           />
         </Switch>
         <Footer

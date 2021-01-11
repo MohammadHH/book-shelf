@@ -3,7 +3,7 @@ import Categories from "../../layouts/Categories/Categories";
 import CarouselList from "../../layouts/CarouselList/CarouselList";
 import { fetchBooksByCategories } from "../../services/booksAPI";
 
-class Router extends Component {
+class LandPage extends Component {
   state = { books: [] };
 
   componentDidMount() {
@@ -26,4 +26,4 @@ class Router extends Component {
   }
 }
 
-export default Router;
+export default LandPage;
