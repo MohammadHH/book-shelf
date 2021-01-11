@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Brand.css";
 
 const Brand = (props) => (
-  <a className="navbar-brand" href="/" id="logo">
+  <Link className="navbar-brand" to="/" id="logo">
     <h1>
-      Books<span style={{ fontWeight: 300 }}>Reviews</span>
+      Books<span id="brand-reviews">Reviews</span>
     </h1>
-  </a>
+  </Link>
 );
 
 export default Brand;
