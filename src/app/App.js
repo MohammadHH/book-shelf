@@ -3,7 +3,7 @@ import LandPage from "../Containers/LandPage/LandPage";
 import FullBook from "../components/Book/FullBook";
 import Header from "../layouts/Header/Header";
 import Footer from "../layouts/Footer/Footer";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import { fetchCategories } from "../services/categoriesAPI";
 import "./App.css";
 
@@ -19,7 +19,7 @@ class App extends Component {
   }
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Header links={links} />
         <Switch>
           <Route path="/:bookId" component={FullBook} />
@@ -35,7 +35,7 @@ class App extends Component {
             .sort()}
           social={social}
         />
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
