@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/book-shelf/static/css/main.0c3618a2.chunk.css",
-    "main.js": "/book-shelf/static/js/main.dc850f7e.chunk.js",
-    "main.js.map": "/book-shelf/static/js/main.dc850f7e.chunk.js.map",
+    "main.css": "/book-shelf/static/css/main.f355508a.chunk.css",
+    "main.js": "/book-shelf/static/js/main.84846359.chunk.js",
+    "main.js.map": "/book-shelf/static/js/main.84846359.chunk.js.map",
     "runtime-main.js": "/book-shelf/static/js/runtime-main.27057583.js",
     "runtime-main.js.map": "/book-shelf/static/js/runtime-main.27057583.js.map",
     "static/css/2.c2ad9185.chunk.css": "/book-shelf/static/css/2.c2ad9185.chunk.css",
-    "static/js/2.3578e7f7.chunk.js": "/book-shelf/static/js/2.3578e7f7.chunk.js",
-    "static/js/2.3578e7f7.chunk.js.map": "/book-shelf/static/js/2.3578e7f7.chunk.js.map",
+    "static/js/2.0ec195f4.chunk.js": "/book-shelf/static/js/2.0ec195f4.chunk.js",
+    "static/js/2.0ec195f4.chunk.js.map": "/book-shelf/static/js/2.0ec195f4.chunk.js.map",
     "index.html": "/book-shelf/index.html",
-    "precache-manifest.aa43114dfa44a2cbb10f73c0122deb95.js": "/book-shelf/precache-manifest.aa43114dfa44a2cbb10f73c0122deb95.js",
+    "precache-manifest.34dbb13e1c795f6fea5eaca100a5c5fd.js": "/book-shelf/precache-manifest.34dbb13e1c795f6fea5eaca100a5c5fd.js",
     "service-worker.js": "/book-shelf/service-worker.js",
     "static/css/2.c2ad9185.chunk.css.map": "/book-shelf/static/css/2.c2ad9185.chunk.css.map",
-    "static/css/main.0c3618a2.chunk.css.map": "/book-shelf/static/css/main.0c3618a2.chunk.css.map",
-    "static/js/2.3578e7f7.chunk.js.LICENSE.txt": "/book-shelf/static/js/2.3578e7f7.chunk.js.LICENSE.txt",
+    "static/css/main.f355508a.chunk.css.map": "/book-shelf/static/css/main.f355508a.chunk.css.map",
+    "static/js/2.0ec195f4.chunk.js.LICENSE.txt": "/book-shelf/static/js/2.0ec195f4.chunk.js.LICENSE.txt",
     "static/media/Audio.png": "/book-shelf/static/media/Audio.8563f3f6.png",
     "static/media/BalancingAct.png": "/book-shelf/static/media/BalancingAct.e8ccdfee.png",
     "static/media/BookThief.png": "/book-shelf/static/media/BookThief.414ab8c1.png",
@@ -46,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.27057583.js",
     "static/css/2.c2ad9185.chunk.css",
-    "static/js/2.3578e7f7.chunk.js",
-    "static/css/main.0c3618a2.chunk.css",
-    "static/js/main.dc850f7e.chunk.js"
+    "static/js/2.0ec195f4.chunk.js",
+    "static/css/main.f355508a.chunk.css",
+    "static/js/main.84846359.chunk.js"
   ]
 }

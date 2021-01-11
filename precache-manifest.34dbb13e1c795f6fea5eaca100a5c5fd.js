@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4828af2a8d712b90ae7272b7bf73102f",
+    "revision": "00252c840c75df7a8afc3f8239d63fc6",
     "url": "/book-shelf/index.html"
   },
   {
-    "revision": "e58cad35b1f34436e682",
+    "revision": "59bcb1d6db1674abc629",
     "url": "/book-shelf/static/css/2.c2ad9185.chunk.css"
   },
   {
-    "revision": "ef7478b49e02d7ccb340",
-    "url": "/book-shelf/static/css/main.0c3618a2.chunk.css"
+    "revision": "9203d19391bad9bc89d2",
+    "url": "/book-shelf/static/css/main.f355508a.chunk.css"
   },
   {
-    "revision": "e58cad35b1f34436e682",
-    "url": "/book-shelf/static/js/2.3578e7f7.chunk.js"
+    "revision": "59bcb1d6db1674abc629",
+    "url": "/book-shelf/static/js/2.0ec195f4.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/book-shelf/static/js/2.3578e7f7.chunk.js.LICENSE.txt"
+    "url": "/book-shelf/static/js/2.0ec195f4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ef7478b49e02d7ccb340",
-    "url": "/book-shelf/static/js/main.dc850f7e.chunk.js"
+    "revision": "9203d19391bad9bc89d2",
+    "url": "/book-shelf/static/js/main.84846359.chunk.js"
   },
   {
     "revision": "7c58b79b0e8bcc834d7f",
