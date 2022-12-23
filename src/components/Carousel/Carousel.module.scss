@@ -1,0 +1,23 @@
+.arrow {
+  position: absolute;
+  top: 250px;
+  cursor: pointer;
+
+  &.left {
+    left: 5%;
+  }
+
+  &.right {
+    right: 5%;
+  }
+
+  .inner {
+    background-color: #ffffff;
+    height: 56px;
+    width: 56px;
+  }
+
+  i {
+    color: #cacaca;
+  }
+}
