@@ -6,19 +6,22 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .padding {
   padding-left: 15%;
   padding-right: 15%;
 }
+
 @media (min-width: 481px) and (max-width: 680px) {
   .padding {
     padding-left: 40px;
     padding-right: 40px;
   }
 }
+
 @media (max-width: 526px) {
   .padding {
     padding-left: 15px;
