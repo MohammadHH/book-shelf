@@ -1,0 +1,15 @@
+.search-link {
+  cursor: pointer;
+  color: #fcfdfa;
+  padding: 8px 8px 0;
+
+  &:hover {
+    color: black;
+  }
+
+  @media screen and (max-width: 992px) {
+    & {
+      padding: 8px;
+    }
+  }
+}

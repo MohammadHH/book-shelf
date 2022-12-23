@@ -1,0 +1,19 @@
+.navbar-light.navbar-nav.nav-link.link {
+  cursor: pointer;
+  padding-bottom: 0px;
+  padding-left: 0;
+  color: white;
+  text-transform: uppercase;
+
+  &:hover {
+    color: black;
+  }
+
+  &.navigation {
+    color: #7f7f7f;
+    text-transform: capitalize;
+    &:hover {
+      color: #81b820;
+    }
+  }
+}
