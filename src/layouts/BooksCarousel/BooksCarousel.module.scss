@@ -1,0 +1,33 @@
+.books-carousel {
+  .carousel-section {
+    padding: 0 15vw;
+    position: relative;
+
+    &.even {
+      background-color: #f6f6f6;
+      background-image: none;
+    }
+    &.odd {
+      background-color: #101010;
+      background-image: linear-gradient(
+          rgba(32, 32, 32, 0.9),
+          rgba(32, 32, 32, 0.8)
+        ),
+        url(../../assets/images/carousel-background.jpg);
+      background-size: auto;
+    }
+  }
+
+  .carousel-category {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    color: black;
+    &.odd {
+      color: white;
+    }
+  }
+
+  .book-link:hover {
+    text-decoration: none;
+  }
+}
