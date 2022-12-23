@@ -1,6 +1,8 @@
-## Books Reviews [Visit Live Website](https://mohammadhh.github.io/book-shelf/)
+## Books Reviews
 
-Implementation of a book-shelf land page mock using ReactJs and Bootstrap.
+<a valign="center" href="https://react-books-reviews.netlify.app" target="_blank" rel="noreferrer"> <img align="middle" src="public/favicon.svg" alt="app demo" style="height: 30px"/> Live Demo</a>
+
+Implementation of a book-shelf land page mock using ReactJs, Typescript, SCSS and Bootstrap.
 
 ## Screen Shots
 
