@@ -68,7 +68,7 @@ export function Expanded() {
           <div className="card-footer">
             {publishedOn && (
               <div className="float-left text-primary">
-                Published On: {publishedOn}
+                Published On: {new Date(publishedOn).toDateString()}
               </div>
             )}
             {reviewedBy && (
