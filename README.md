@@ -1,25 +1,25 @@
 ## Books Reviews [Visit Live Website](https://mohammadhh.github.io/book-shelf/)
+
 Implementation of a book-shelf land page mock using ReactJs and Bootstrap.
 
 ## Screen Shots
 
-Desktop View             |  Tablet View               | Mobile View
-:-------------------------:|:-------------------------:|:-------------------------:
-![Desktop View](https://i.ibb.co/3r9wq78/Books-Reviews-Desktop.png)  |  ![Tablet View](https://i.ibb.co/gJxY8vn/Books-Reviews-Tablet.png) | ![Mobile View](https://i.ibb.co/16Gtfrr/Books-Reviews-Mobile.png)
+|                            Desktop View                             |                            Tablet View                            |                            Mobile View                            |
+| :-----------------------------------------------------------------: | :---------------------------------------------------------------: | :---------------------------------------------------------------: |
+| ![Desktop View](https://i.ibb.co/3r9wq78/Books-Reviews-Desktop.png) | ![Tablet View](https://i.ibb.co/gJxY8vn/Books-Reviews-Tablet.png) | ![Mobile View](https://i.ibb.co/16Gtfrr/Books-Reviews-Mobile.png) |
 
-## Installation and Setup Instructions 
+## Installation and Setup Instructions
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+Clone down this repository. You will need `node` and `yarn` installed on your machine.
 
 - Installation
 
-  `npm install`  
+  `npm install`
 
 - Start App
 
-  `npm start`  
+  `npm start`
 
 - Visit App
 
-  `localhost:3000`  
-
+  `localhost:3000`
