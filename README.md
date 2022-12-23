@@ -14,11 +14,11 @@ Clone down this repository. You will need `node` and `yarn` installed on your ma
 
 - Installation
 
-  `npm install`
+  `yarn install`
 
 - Start App
 
-  `npm start`
+  `yarn start`
 
 - Visit App
 
