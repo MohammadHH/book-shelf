@@ -32,16 +32,47 @@ import mystery from "./categories/Mystery.png";
 import romance from "./categories/Romance.png";
 import fiction from "./categories/Fiction.png";
 
-const fictions = [BookThief, JohnMarsden, DirtyWood, TheBootlegger, Bootlegger, BalancingAct];
-const nonfictions = [feverTree, fever, theBook, greenWald, decentHour, wishMeDead];
-const childrens = [WilliamShakespeare, FairyThings, PhonicsGames, Unicorn, RosieProject, InsideTheZoo];
+const fictions = [
+  BookThief,
+  JohnMarsden,
+  DirtyWood,
+  TheBootlegger,
+  Bootlegger,
+  BalancingAct,
+];
+const nonfictions = [
+  feverTree,
+  fever,
+  theBook,
+  greenWald,
+  decentHour,
+  wishMeDead,
+];
+const childrens = [
+  WilliamShakespeare,
+  FairyThings,
+  PhonicsGames,
+  Unicorn,
+  RosieProject,
+  InsideTheZoo,
+];
 
+// : { category: string; images: string[] }[]
 const booksImages = [];
 booksImages.push({ category: "fiction", images: fictions });
 booksImages.push({ category: "nonfiction", images: nonfictions });
 booksImages.push({ category: "childrens", images: childrens });
 
-const categoriesImages = [audio, business, children, cooking, lifeStyle, mystery, romance, fiction];
+const categoriesImages = [
+  audio,
+  business,
+  children,
+  cooking,
+  lifeStyle,
+  mystery,
+  romance,
+  fiction,
+];
 
 export const getBooksImages = () => {
   return booksImages;
