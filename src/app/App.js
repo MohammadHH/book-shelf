@@ -3,7 +3,7 @@ import LandPage from "../Containers/LandPage/LandPage";
 import FullBook from "../components/Book/FullBook";
 import Header from "../layouts/Header/Header";
 import Footer from "../layouts/Footer/Footer";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { fetchCategories } from "../services/categoriesAPI";
 import "./App.css";
 
@@ -21,13 +21,13 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Header links={links} />
-        <Switch>
-          <Route path="/:bookId" component={FullBook} />
+        <Routes>
+          <Route path="/:bookId" element={<FullBook />} />
           <Route
             path="/"
-            render={() => <LandPage categories={this.state.categories} />}
+            element={<LandPage categories={this.state.categories} />}
           />
-        </Switch>
+        </Routes>
         <Footer
           navigation={links}
           navigationCategories={this.state.categories
