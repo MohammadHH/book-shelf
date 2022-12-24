@@ -1,15 +1,21 @@
-.navbar-brand h1 {
-  font-size: 48px;
-  font-weight: 900;
-  color: white;
-}
-
-@media screen and (max-width: 420px) {
-  .navbar-brand h1 {
-    font-size: 32px;
+.navbar-brand {
+  &:hover {
+    text-decoration: none;
   }
-}
 
-.brand-reviews {
-  font-weight: 300;
+  h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+
+    @media screen and (max-width: 420px) {
+      & {
+        font-size: 32px;
+      }
+    }
+  }
+
+  .brand--thin {
+    font-weight: 300;
+  }
 }
